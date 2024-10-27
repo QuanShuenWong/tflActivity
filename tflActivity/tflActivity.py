@@ -4,7 +4,7 @@ import matplotlib.colors as mcolors
 import numpy as np
 
 # Load the Excel file, specify the second sheet, and set header row
-file_path = '/Users/quanshuen/PycharmProjects/tflActivity/Data/tfl-daily-cycle-hires.xlsx'  # Update with your actual file path
+file_path = '/Users/quanshuen/PycharmProjects/tflActivity/Data/Historical ridership data/tfl-daily-cycle-hires.xlsx'  # Update with your actual file path
 df = pd.read_excel(file_path, sheet_name=1, header=5)  # Reads data from the second sheet with headers on row 6
 
 # Convert 'Day' column to datetime

@@ -5,15 +5,176 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ba675c3-937b-47cf-8ebb-c9f71ae57d9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tflActivity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tflActivity/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tflActivity/heatmap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tflActivity/tflActivity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tflActivity/travelDirection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Barking and Dagenham.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Barking and Dagenham.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Barking and Dagenham.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Barking and Dagenham.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Barking and Dagenham.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Barnet.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Barnet.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Barnet.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Barnet.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Barnet.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Bexley.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Bexley.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Bexley.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Bexley.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Bexley.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Brent.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Brent.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Brent.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Brent.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Brent.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Bromley.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Bromley.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Bromley.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Bromley.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Bromley.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Camden.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Camden.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Camden.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Camden.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Camden.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/City of London.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/City of London.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/City of London.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/City of London.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/City of London.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Croydon.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Croydon.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Croydon.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Croydon.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Croydon.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Ealing.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Ealing.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Ealing.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Ealing.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Ealing.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Enfield.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Enfield.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Enfield.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Enfield.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Enfield.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Greenwich.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Greenwich.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Greenwich.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Greenwich.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Greenwich.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hackney.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hackney.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hackney.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hackney.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hackney.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hammersmith and Fulham.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hammersmith and Fulham.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hammersmith and Fulham.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hammersmith and Fulham.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hammersmith and Fulham.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Haringey.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Haringey.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Haringey.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Haringey.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Haringey.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Harrow.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Harrow.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Harrow.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Harrow.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Harrow.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Havering.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Havering.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Havering.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Havering.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Havering.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hillingdon.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hillingdon.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hillingdon.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hillingdon.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hillingdon.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hounslow.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hounslow.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hounslow.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hounslow.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Hounslow.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Islington.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Islington.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Islington.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Islington.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Islington.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Kensington and Chelsea.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Kensington and Chelsea.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Kensington and Chelsea.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Kensington and Chelsea.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Kensington and Chelsea.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Kingston upon Thames.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Kingston upon Thames.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Kingston upon Thames.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Kingston upon Thames.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Kingston upon Thames.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Lambeth.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Lambeth.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Lambeth.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Lambeth.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Lambeth.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Lewisham.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Lewisham.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Lewisham.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Lewisham.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Lewisham.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Merton.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Merton.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Merton.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Merton.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Merton.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Newham.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Newham.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Newham.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Newham.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Newham.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Redbridge.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Redbridge.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Redbridge.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Redbridge.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Redbridge.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Richmond upon Thames.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Richmond upon Thames.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Richmond upon Thames.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Richmond upon Thames.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Richmond upon Thames.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Southwark.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Southwark.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Southwark.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Southwark.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Southwark.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Sutton.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Sutton.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Sutton.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Sutton.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Sutton.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Tower Hamlets.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Tower Hamlets.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Tower Hamlets.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Tower Hamlets.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Tower Hamlets.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Waltham Forest.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Waltham Forest.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Waltham Forest.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Waltham Forest.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Waltham Forest.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Wandsworth.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Wandsworth.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Wandsworth.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Wandsworth.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Wandsworth.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Westminster.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Westminster.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Westminster.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Westminster.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Shapefile/msoa2021/Westminster.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/tfl-daily-cycle-hires.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tflActivity/heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/tflActivity/heatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tflActivity/tflActivity.py" beforeDir="false" afterPath="$PROJECT_DIR$/tflActivity/tflActivity.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
